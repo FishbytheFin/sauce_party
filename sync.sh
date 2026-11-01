@@ -1,1 +1,0 @@
-rsync -r finnwood@attu.cs.washington.edu:~/code/c/sauce_party/ . 
