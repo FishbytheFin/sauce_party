@@ -1,0 +1,20 @@
+1. Stations
+    a. Drinks
+    b. Lemons
+    c. Sauce
+    d. Dish
+    e. Marinate
+    f. Batter
+    g. slaw
+2. Game modes
+    a. Prep
+    b. Kitchen
+    c. RI?
+3. Lower Screen
+    a. Prep: quantities
+    b. Kitchen: board
+4. Concurrent Tasks
+5. Time Goal
+6. Victory mini game?
+7. Menus
+
