@@ -13,6 +13,7 @@
 // Station IDs
 #define LEMON_ID 0
 
+typedef unsigned short ushort;
 
 // Simple sprite struct
 typedef struct
@@ -24,5 +25,5 @@ typedef struct
 
 typedef struct
 {
-    short ID;
+    ushort ID;
 } Station;

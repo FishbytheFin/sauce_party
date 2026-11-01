@@ -8,7 +8,10 @@ static size_t numSprites = MAX_SPRITES/2;
 
 Station lemon;
 
+ushort curr_station;
+
 static void initStations() {
+    curr_station = LEMON_ID;
     lemon.ID = LEMON_ID;
 }
 
@@ -103,9 +106,12 @@ int main(int argc, char* argv[]) {
 		C3D_FrameBegin(C3D_FRAME_SYNCDRAW);
 		C2D_TargetClear(top, C2D_Color32f(0.0f, 0.0f, 0.0f, 1.0f));
 		C2D_SceneBegin(top);
+
 		for (size_t i = 0; i < numSprites; i ++)
 			C2D_DrawSprite(&sprites[i].spr);
+
 		C3D_FrameEnd(0);
+        // End Rendering stage
 	}
 
 	// Delete graphics
