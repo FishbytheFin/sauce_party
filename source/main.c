@@ -6,6 +6,12 @@ static C2D_SpriteSheet spriteSheet;
 static Sprite sprites[MAX_SPRITES];
 static size_t numSprites = MAX_SPRITES/2;
 
+Station lemon;
+
+static void initStations() {
+    lemon.ID = LEMON_ID;
+}
+
 //---------------------------------------------------------------------------------
 static void initSprites() {
 //---------------------------------------------------------------------------------

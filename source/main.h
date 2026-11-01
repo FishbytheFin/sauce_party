@@ -10,9 +10,19 @@
 #define SCREEN_WIDTH  400
 #define SCREEN_HEIGHT 240
 
+// Station IDs
+#define LEMON_ID 0
+
+
 // Simple sprite struct
 typedef struct
 {
 	C2D_Sprite spr;
 	float dx, dy; // velocity
 } Sprite;
+
+
+typedef struct
+{
+    short ID;
+} Station;
