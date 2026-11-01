@@ -43,6 +43,7 @@
 *.su
 *.idb
 *.pdb
+sync.sh
 
 # Kernel Module Compile Results
 *.mod*
@@ -55,3 +56,6 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+#AI
+AGENTS.md
